@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     
+      <script src="login.js"></script>
+      <a href="./index.html">home</a>
+      <link rel="stylesheet" href="C:\Users\ethan\Desktop\myProjectWeb\new\WebFinalProject\client\login.css">
+    </head>
+
+<body>
+<!-- Button to open the modal sign up form -->
+<div><button class="btn" onclick="document.getElementById('id01').style.display='block'">sign up</button></div>
+
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+<h1>please sign up before you play</h1>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="http://localhost:8080/login" method="POST">
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="instrument"><b>what is your favoriye instrument?</b></label>
+      <input type="text" placeholder="Enter instrument" name="instrument" required>
+
+      <button type="submit">start playing</button>
+      
+    </div>
+  <!--cancel btn-->
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+
+
+
+
+</body>
+</html>

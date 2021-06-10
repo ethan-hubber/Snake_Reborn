@@ -1,0 +1,71 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(218, 67, 67); /* Fallback color */
+    background-color: rgba(177, 144, 35, 0.4); /* Black w/ opacity */
+    
+   
+    padding-top: 300px;
+  }
+  
+  /* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid rgb(199, 66, 66);
+    width: 80%; /* Could be more or less, depending on screen size */
+    padding: 1rem;
+  }
+  
+  /* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: rgb(150, 23, 23);
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+.close:hover,
+.close:focus {
+    color: rgb(38, 187, 75);
+    cursor: pointer;
+  }
+  
+  h1{
+    text-align: center;
+
+  }
+  body{
+    padding: 10rem;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, rgb(216, 13, 40), orange, red);
+text-align: center;
+font-size: 2rem;
+  }
+  
+
+
+  .btn{
+    
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+    font-size: 2rem;
+    
+    box-shadow: rgb(37, 0, 10) 20px 10px 50px;
+  }
+  .btn:hover{
+    background-color: aqua;
+  }
+
+
+
+  

@@ -1,0 +1,42 @@
+.head {
+  background-color: rgb(1, 43, 70);
+  padding: 10px 307px;
+  text-align: center;
+ color: aliceblue;
+  
+}
+
+h1{
+  background-image: linear-gradient(to left, violet, rgb(188, 105, 246), rgb(255, 230, 0), rgb(156, 248, 156), rgb(216, 13, 40), orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+     /*   arranging items on screen  */ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+  position: fixed;
+}
+#game {
+  top: 25%;
+  left:25%;
+  position: fixed;
+  /*   */ 
+  /* nice background shadow of the canvas  */ 
+    box-shadow: rgb(37, 0, 10) 20px 10px 50px;
+}
+.box{
+  
+  background-image: url(Assets/snakes.jpg);
+  padding: 600px 1000px 200px 200px;
+  margin: 10px 10px;
+  background-repeat: no-repeat;
+background-size: cover;
+}
+
+
